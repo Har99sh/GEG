@@ -1,0 +1,155 @@
+body{
+     background-color: black; 
+}
+.logoBox, .upperBox, .middleBox{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logoImageContainer img{
+    width: 75px;
+}
+/*To flip image horizontally*/
+ .rightLogo img {
+     transform: scaleX(-1);
+}
+
+.nameOfCompany{
+    width: 75%;
+    margin-top: 5%;
+    margin-left: 6%;
+    font-family: 'Khula';
+    font-weight: 400;
+    font-size: large;
+    line-height: 150%;
+    color: #FFCA48;
+    text-shadow: 2px 2px 4px #FFCA48;
+    
+}
+.sloganOfCompany{
+    margin-left: 5%;
+    color: white;
+}
+header nav {
+    background-color: rgba(255, 241, 111, 0.87);
+}
+
+nav ul, .middleBox{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+nav ul li{
+    color:black;
+    margin-right: 5%;
+}
+
+.separatingLine{
+    border: 1px solid #000000;
+}
+
+.upperBox img, .lowerBox img{
+    width: 75%;
+}
+
+.upperBox .text{
+    color: white;
+    margin-top: 10%;
+    flex-direction: column;
+}
+.getFit{
+    font-size: large;
+    margin-top: 20%;
+    text-align: center;
+}
+.getGoing{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10%;
+    text-shadow: 0px 0px 3.5px #FFFFFF;
+}
+
+.middleBox img{
+    margin-top: 4%;
+    width:30%;
+}
+
+.lowerBox {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: row-reverse;
+}
+
+.lowerBox .text{
+    color: white;
+    width: 10%;
+    text-align: center;
+    margin-right: 12%;  
+}
+/*Style for contact information on index*/
+.infoBox div{
+    margin-top: 5%;
+    color: yellow;
+    text-align: center;
+}
+.listOfContactInfo{
+    text-align: center;
+    color: white;
+    list-style: none;
+    margin-right: 3%;
+}
+
+.listOfContactInfo .icon img{
+    margin-right: 2%;
+    width: 15px;
+    height: 15px;
+}
+.listOfContactInfo li{
+    margin-top: 2%;
+}
+
+/*About us style*/
+h3{
+    color: goldenrod;
+    text-align: center;
+}
+.aboutUsUpperBox{
+    display: flex;
+    flex-direction: row;
+}
+.introductionText{
+    color: white;
+    width: 40%;
+    margin-left: 3%;
+    text-align:left;
+}
+
+.outsidePhotos{
+    width: 60%;
+}
+.outsidePhotos img{
+    width: 80%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .nameOfCompany{
+    text-align: center;
+    text-shadow: 2px 2px 4px #FFCA48;
+    margin-top: -2%;;
+
+}
+a, a:visited{
+    text-decoration: none;
+    color: black;
+
+}
